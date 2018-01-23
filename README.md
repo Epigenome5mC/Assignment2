@@ -209,9 +209,9 @@ echo ";gene_symbol=PTEN;gene_name=phospho;gene_sequence=atc;" | match.py -r "gen
 
 So lets try just two last commands. If you need help, you can check out regex101.com
 
-*Provide command that gives gene_name from above, instead of gene_symbol using your new match.py program.*
+**echo ";gene_symbol=PTEN;gene_name=phospho;gene_sequence=atc;" | pymatch.py -r "gene_name=(.*?);"**
 
-*Provide command that gives gene_name & gene_sequence from above in oneline.*
+**echo ";gene_symbol=PTEN;gene_name=phospho;gene_sequence=atc;" | pymatch.py -r "gene_name=(.*?);gene_sequence=(.*?);"**
  
 
 Pages: 1 2 3 4 5 6 7 8
