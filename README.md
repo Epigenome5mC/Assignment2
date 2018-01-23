@@ -81,8 +81,7 @@ What is the size of the uncompressed file and what is the size of the compressed
 
 **ls -lh HG001_GRCh37_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-X_v.3.3.2_highconf_PGandRTGphasetransfer.vcf.gz**
 
-**ls -lh HG001_GRCh37_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-X_v.3.3.2_highconf_PGandRTGphasetransfer.vcf
--rw-rw-r--. 1 veronico veronico 1.7G Jan 23 04:56 HG001_GRCh37_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-X_v.3.3.2_highconf_PGandRTGphasetransfer.vcf**
+**ls -lh HG001_GRCh37_GIAB_highconf_CG-IllFB-IllGATKHC-Ion-10X-SOLID_CHROM1-X_v.3.3.2_highconf_PGandRTGphasetransfer.vcf**
 
 That's a fair amount of space.  How much space do we have to work with.  Type 'df -h' to find out.
 
