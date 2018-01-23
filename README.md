@@ -118,7 +118,7 @@ Did you notice we piped to head?  If you don't do that you'll be waiting for 4 m
 
 **awk '{print $1}' NA12878.variants.vcf | sort -V | uniq**
 
-cut -d "<control-v + tab" -f1 NA12878.variants.vcf | sort -V | uniq
+**cut -d "<control-v + tab" -f1 NA12878.variants.vcf | sort -V | uniq**
 The result should be this
 
  
