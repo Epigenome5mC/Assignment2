@@ -117,6 +117,8 @@ Ok - fail.  Another option is by control-v then 'tab'.  That creates a single ch
 Did you notice we piped to head?  If you don't do that you'll be waiting for 4 million numbers to go by.  However, what we want is the unique or distinct numbers.  Instead of piping to head what can we pipe to so the output is only the chomosomes?  Ok - the goal of this course is to teach you how to use all languages and comamnds to quickly get to the goal, so google it. Look for a way to print unique results, and sort will probably be involved.  One command, but several pipes.
 
 **awk '{print $1}' NA12878.variants.vcf | sort -V | uniq**
+
+cut -d "<control-v + tab" -f1 NA12878.variants.vcf | sort -V | uniq
 The result should be this
 
  
