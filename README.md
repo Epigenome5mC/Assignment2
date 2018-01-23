@@ -152,7 +152,7 @@ Lets explain this.  The first line tells us that python will run the remaining l
 
 We have command.py, but we have not made it executable.  Please change the permission such that we can run command.py.
 
-*Place a bash command that makes command.py executable*
+**chmod 755 command.py**
 
 Now that's executable, we can test it out as we do below, typing './command.py', recognizing that command.py is not in our path, and we must give then the path.  We do this with "./" before the name when we are already in the correct directory.
 
