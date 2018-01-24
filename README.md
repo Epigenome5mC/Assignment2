@@ -130,6 +130,7 @@ I don't see Y this must be female.  Maybe we should double check.  If they are f
 Ok.  That's not quite what I am looking for.  I just want the genotypes.  Instead of head, can you pipe the above result into another pipe, grabbing the first field?
 
 **cut -d "     " -f10 NA12878.variants.vcf > NA12878.variants_10.vcf**
+
 **cut -d":" -f1 NA12878.variants_10.vcf > NA12878.variants_first_column.vcf**
 
 
